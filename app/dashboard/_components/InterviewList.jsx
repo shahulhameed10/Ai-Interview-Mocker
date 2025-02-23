@@ -4,7 +4,7 @@ import { MockInterview } from "@/utils/schema";
 import { useUser } from "@clerk/nextjs";
 import { desc, eq } from "drizzle-orm";
 import React, { useEffect, useState, useCallback } from "react";
-import InterviewItemCard from "./interviewItemCard";
+import InterviewItemCard from "./InterviewItemCard";
 
 function InterviewList() {
   const { user } = useUser();
