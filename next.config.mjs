@@ -1,4 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    env: {
+      DRIZZLE_DB_URL: process.env.DRIZZLE_DB_URL,
+    },
+  };
+  
+  export default nextConfig;
+  
